@@ -1,0 +1,64 @@
+/* basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    background: #000000;
+    color: #fff;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    font-weight: bold;
+    display: block;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+.popup-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.popup {
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 8rem auto;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    border: 2px solid #000;
+}
+
+.popup .close {
+    position: absolute;
+    top: 2px;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    right: 8px;
+    font-size: 1.2rem;
+}
+
+.popup p {
+    margin: 0.6rem 0;
+}
+
+.popup .btn-2 {
+    background: #dc143c;
+    color: #fff;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+}
